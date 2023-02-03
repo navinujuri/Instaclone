@@ -1,0 +1,41 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.flex-container{
+    width: 1000px;
+    border-radius: 10px;
+    box-shadow: 20px 20px 40px -10px rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+.main-login{
+    margin:  30px auto;
+   width: 1000px;
+}
+.loginmsg{
+    text-align: center;
+    font-size: 40px;
+}
+
+.box-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.enter{
+    text-align: center;
+    font-size: 30px;
+    border: 2px solid green;
+    display: inline-block;
+    border-radius: 10px;
+    width: 100px;
+}
+.image{
+    height: 700px;
+}
